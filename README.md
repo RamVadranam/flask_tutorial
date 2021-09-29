@@ -14,4 +14,4 @@ start flask application
 
 ```sh app_run.sh```
 
-```python tests/integration/api_test.py```
+```python src/tests/integration/api_test.py```
