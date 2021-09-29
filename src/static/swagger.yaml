@@ -1,0 +1,31 @@
+"openapi": 3.0.0
+info:
+  description: sean
+  version: 1.0.0
+  title: Python3-Flask-Rest-Boilerplate
+  contact:
+    email: test@gmail.com
+  license:
+    name: MIT
+    url: 'https://opensource.org/licenses/MIT'
+servers:
+  - url: 'http://127.0.0.1:5000/'
+paths:
+  /total/{number}:
+    post:
+      summary: add number
+      parameters:
+        - in: path
+          name: number
+          schema:
+            type: integer
+          description: add integer
+      responses:
+        '201':
+          description: OK
+  /total:
+    get:
+      summary: Returns sum of number
+      responses:
+        '200':
+          description: OK
