@@ -8,3 +8,10 @@ Navigate to following paths in browser for swagger documentation
 Execute POST and GET requests to add numbers and retrieve sum
 ### To Run unit tests use following command
 ```pytest```
+
+### To Run Integration tests use following command
+start flask application
+
+```sh app_run.sh```
+
+```python tests/integration/api_test.py```
